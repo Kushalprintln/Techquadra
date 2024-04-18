@@ -1,0 +1,28 @@
+.school{
+    /* border: 1px solid black; */
+    display: flex;
+    justify-content: space-between;
+}
+.right{
+    /* border: 1px solid black; */
+    gap: 10px;
+}
+.right button{
+    border: 1px solid #edeeee;
+    border-radius: 6px;
+    padding: 8px;
+    font-weight: 600;
+    cursor: pointer;
+}
+hr{
+    margin: 8px 0;
+}
+.loader{
+    /* border: 1px solid black; */
+    width: 30%;
+    margin: 60px 35%;
+}
+.left,.right{
+    display: flex;
+    align-items: center;
+}

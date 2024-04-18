@@ -1,0 +1,11 @@
+.schooltable{
+    border-collapse: collapse;
+    width: 100%;
+    font-weight: 500;
+}
+.schooltable th{
+    border: 1px solid #edeeee;
+    color: gray;
+    padding: 5px;
+    text-align: left;
+}

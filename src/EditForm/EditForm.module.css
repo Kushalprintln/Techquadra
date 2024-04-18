@@ -1,0 +1,50 @@
+.fromcontainer{
+    width: 100vw;
+    height: 100vh;
+    border: 1px solid black;
+    position: fixed;
+    top: 0;
+    left: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(0,0,0, 0.4);
+    font-weight: 600;
+}
+.editform{
+    width: 80%;
+    height: 99vh;
+    border: 1px solid #edeeee;
+    background-color: white;
+    border-radius: 15px;
+    padding: 20px 35px 20px 20px;
+    position: relative;
+    display: flex;
+    gap: 20px;
+}
+.close{
+    border: 1px solid #edeeee;
+    width: 35px;
+    height: 35px;
+    border-radius: 50%;
+    padding: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: 500;
+    position: absolute;
+    right:20px;
+    top: 8px;
+    cursor: pointer;
+}
+.editbtn{
+    padding: 8px;
+    border-radius: 6px;
+    font-weight: 600;
+    background-color:#2BC0E4  ;
+    border: none;
+    cursor: pointer; 
+    display: flex;
+    align-items: center;
+    gap: 6px;
+}
